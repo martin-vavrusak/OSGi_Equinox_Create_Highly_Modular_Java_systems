@@ -11,7 +11,7 @@ private Gps gps;
 private EmergencyMonitor monitor;
 
 	public void start(BundleContext context) throws Exception {
-		System.out.println("Launching");
+		System.out.println("LaunchingG");
 		gps = new Gps();
 		airbag = new Airbag();
 		monitor = new EmergencyMonitor();
